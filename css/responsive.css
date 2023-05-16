@@ -56,6 +56,8 @@
   }
 }
 
+
+
 /* image 2 START Media Queries */
 @media only screen and (max-width: 680px) {
   #item-1 .carousel-item3-anchor1 {
@@ -278,3 +280,144 @@
   }
 }
 /* item-9 END Media Queries */
+
+
+/* ITEM ALL Media query  MOBILE */
+@media only screen and (max-width: 480px) {
+  #item-1 .carousel-item-contain {
+    top: 180px;
+    width: 180px;
+    height: 150px;
+  }
+
+  #item-1 .carousel-item-para-1 {
+    font-size: 1rem !important;
+  }
+
+  #item-1 #carousel-item-btn-1 {
+    height: 44px;
+    width: 80px;
+    right: 260px !important;
+  }
+
+  #item-1 #carousel-item-btn-2 {
+    width: 250px;
+    height: 44px;
+  }
+
+  #item-1 .carousel-item-btn-1{
+font-size: 0.8rem;
+  }
+
+  #item-1 #carousel-item-btn-3 {
+    top: 520px;
+    width: 250px;
+    height: 44px;
+    padding-top: 0.1rem;
+  }
+
+  #item-1 .carousel-item-btn-3 {
+    font-size: 0.8rem;
+  }
+
+  /* IMAGE 2 START MOBILE SIZE */
+  #item-1 .carousel-item3-anchor1 {
+    width: 310px;
+    height: 58px;
+    font-size: 1.4rem;
+  }
+
+  #item-1 .carousel-item3-anchor2 {
+    width: 140px;
+    height: 40px;
+    right: 190px;
+    font-size: 0.8rem;
+  }
+
+  #item-1 .carousel-item2-anchor2 a {
+    width: 200px;
+    height: 40px;
+    font-size: 0.9rem; 
+  }
+
+  #item-1 .btn {
+    width: 340px !important;  
+    font-size: 0.8rem;
+  }
+/* IMAGE 2 END MOBILE SIZE */
+
+
+/* IMAGE 3 START MOBILE SIZE */
+  .vertical-line {
+    left: 40px !important;
+  }
+  #item-1 .carousel-item3-trynow {
+    top: 570px;
+    left: -100px;
+    height: 40px;
+    width: 240px;
+  }
+  #item-1 h5 {
+    padding-top: 0.7rem !important;
+  }
+  #item-1 h1 {
+    font-size: 1.4rem;
+    left: 90px; 
+  }
+  #item-1 h2 {
+    left: 90px; 
+    font-size: 1.5rem !important;
+  }
+  #item-1 .carousel-item3 {
+    height: 90px;
+    width: 290px;
+  }
+  #item-1 h3 {
+    padding-left: 6rem;
+    padding-top: 0.6rem;
+    font-size: 1.2rem;
+  }
+  #item-1 h4 {
+    padding-left: 6rem;
+    padding-top: 0.5rem;
+    font-size: 1.2rem !important;
+  }
+  #item-1 .arrow-right {
+    top: 440px;
+    left: 250px;
+    height: 35px;
+    width: 60px;
+  }
+  #item-1 h5 {
+    font-size: 0.8rem;
+    left: 100px !important;
+  }
+/* IMAGE 3 END MOBILE SIZE */
+
+/* ITEM - 5 Media query */
+  .item-5 h1{
+    font-size: 1.9rem;
+  }
+
+  .container-contain {
+    margin-left: 0.1rem;
+  }
+
+  .item-5 p {
+font-size: 0.9rem;
+  }
+
+  /* ITEM - 10 Media query */
+
+  #item-10 .item-10-h1 {
+    font-size: 1.7rem;
+  }
+
+  .item-10-container-1 {
+    height: 180px;
+  }
+
+  .number-contain h1 {
+    font-size: 2rem;
+  }
+}

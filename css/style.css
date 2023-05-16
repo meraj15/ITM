@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 :root {
@@ -12,6 +13,7 @@
 html {
   overflow-x: hidden;
 }
+
 .navbar {
   background-color: none !important;
   position: absolute !important;
@@ -470,7 +472,6 @@ ul li .nav-link-ltr:hover::before {
 }
 
 #item-3 .item-3-h1 {
-  margin-left: 8rem;
   padding-top: 3rem;
   color: #ca0401;
   font-weight: 600;
@@ -531,7 +532,7 @@ ul li .nav-link-ltr:hover::before {
   margin-top: 3rem;
 }
 
-.item-7-play-button {
+/* .item-7-play-button {
   font-size: 70px;
   color: white;
   display: flex;
@@ -539,7 +540,7 @@ ul li .nav-link-ltr:hover::before {
   position: absolute;
   top: 3600px;
   left: 650px;
-}
+} */
 
 /* ITEM -8 style css */
 
