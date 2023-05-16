@@ -1,0 +1,280 @@
+@media screen and (max-width: 992px) {
+  .navbar {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 996px) and (min-width: 1080px) {
+  .navbar-brand {
+    padding-left: 3rem !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1150px) {
+  nav {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #item-1 .carousel-item-contain {
+    top: 140px;
+    right: 80px;
+    width: 220px;
+    height: 200px;
+  }
+
+  #item-1 .carousel-item-para-1 {
+    font-size: 1.3rem !important;
+  }
+
+  #item-1 #carousel-item-btn-1 {
+    width: 100px;
+    height: 48px;
+    top: 450px;
+    right: 372px !important;
+  }
+
+  #item-1 #carousel-item-btn-2 {
+    width: 360px;
+    height: 48px;
+    top: 450px;
+  }
+
+  #item-1 #carousel-item-btn-3 {
+    top: 520px;
+    width: 310px;
+  }
+
+  #item-1 .carousel-item-btn-3 {
+    font-size: 15px;
+  }
+
+  #item-1 .carousel-item-btn-1 {
+    font-size: 1rem;
+  }
+}
+
+/* image 2 START Media Queries */
+@media only screen and (max-width: 680px) {
+  #item-1 .carousel-item3-anchor1 {
+    width: 380px;
+    height: 50px;
+    font-size: 1.8rem;
+  }
+
+  #item-1 .carousel-item3-anchor2 {
+    width: 160px;
+    height: 65px;
+    right: 310px;
+    font-size: 1rem;
+  }
+
+  #item-1 .carousel-item2-anchor2 a {
+    width: 320px;
+    height: 65px;
+    font-size: 1.8rem;
+  }
+}
+/* image 2 END Media Queries */
+
+/* image 3 media query */
+
+@media only screen and (min-width: 480px) and (max-width: 590px) {
+  .vertical-line {
+    left: 60px;
+  }
+  #item-1 h1 {
+    font-size: 2.4rem;
+    /* left: 120px; */
+  }
+  #item-1 h2 {
+    /* left: 140px; */
+    font-size: 2.4rem;
+  }
+  #item-1 .carousel-item3 {
+    height: 100px;
+    width: 440px;
+  }
+  #item-1 h3 {
+    padding-left: 6rem;
+    padding-top: 0.5rem;
+    font-size: 1.8rem;
+  }
+  #item-1 h4 {
+    padding-left: 6rem;
+    padding-top: 0.5rem;
+    font-size: 1.8rem;
+  }
+  #item-1 .arrow-right {
+    top: 440px;
+    left: 401px;
+    height: 40px;
+    width: 70px;
+  }
+}
+
+/* item-2 START Media Queries */
+@media only screen and (max-width: 1189px) {
+  #item-2 .image-backside-item2 {
+    height: 860px !important;
+  }
+  #item-2 h1 {
+    font-size: 2.2rem;
+  }
+  #item-2 .item2-contain1-para1 {
+    font-size: 1.4rem;
+  }
+  #item-2 .item2-logo {
+    padding: 1.4rem 0px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #item-2 .image-backside-item2 {
+    height: 770px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #item-2 .image-backside-item2 {
+    height: 670px !important;
+  }
+  #item-2 h1 {
+    font-size: 2rem;
+  }
+  #item-2 .item2-contain1-para1 {
+    font-size: 1.2rem;
+  }
+
+  /* Item 3 media query */
+
+  #item-3 {
+    height: 3700px;
+  }
+  #item-3 .mobileapp-card {
+    margin: 3rem 0px;
+  }
+
+  /* Item 8 media query */
+  .container h1 {
+    font-size: 1.6rem;
+  }
+
+  .container .container-para-1 {
+    font-size: 1.5rem;
+  }
+
+  .container .container-para-2 {
+    font-size: 1.1rem;
+  }
+
+  /* Item 10 media query */
+
+  #item-10 .item-10-h1 {
+    font-size: 35px;
+  }
+
+  .item-10-container-1 {
+    height: 140px;
+    width: 900px;
+  }
+
+  .number-contain h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+/* item-2 END Media Queries */
+
+/* item-3 START Media Queries */
+@media only screen and (max-width: 1199px) {
+  #item-3 {
+    height: 2090px;
+  }
+  #item-3 .last {
+    margin-top: 3rem !important;
+  }
+  #item-3 .container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #item-3 .card {
+    margin: 1rem 0px !important;
+  }
+  #item-3 {
+    height: 2000px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #item-3 {
+    height: 3540px;
+  }
+  #item-3 .card {
+    margin: 1rem 0px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #item-3 {
+    height: 2000px;
+  }
+}
+
+@media only screen and (max-width: 541px) {
+  #item-3 {
+    height: 3540px;
+  }
+  #item-3 .mobileapp-card {
+    margin: 3rem 0px;
+  }
+}
+/* item-3 END Media Queries */
+
+/* Item 5 media query */
+
+@media only screen and (max-width: 991px) {
+  .item-5-contain-3 {
+    margin-left: 12rem;
+    margin-top: 3rem;
+  }
+}
+
+/* Item 5 media query */
+@media only screen and (max-width: 767px) {
+  .item-5-contain-3 {
+    margin-left: -1rem;
+  }
+  .item-5-contain-2 {
+    margin-top: 3rem;
+  }
+
+  .container-contain {
+    margin-left: 4rem;
+  }
+}
+
+/* item-9 START Media Queries */
+@media only screen and (max-width: 1277px) {
+  #item-9 .card-4 {
+    margin-top: 3rem;
+  }
+  #item-9 .card-5 {
+    margin-top: 3rem;
+  }
+  #item-9 .card-6 {
+    margin-top: 6rem;
+  }
+}
+
+@media only screen and (max-width: 861px) {
+  #item-9 .card-5 {
+    margin-top: 6rem;
+  }
+}
+/* item-9 END Media Queries */
