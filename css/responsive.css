@@ -2,6 +2,10 @@
   .navbar {
     display: inline-block;
     width: 100%;
+    background-color: black;
+  }
+  .fa-bars{
+    color: whitesmoke;
   }
 }
 
@@ -297,11 +301,11 @@
   #item-1 #carousel-item-btn-1 {
     height: 44px;
     width: 80px;
-    right: 260px !important;
+    right: 300px !important;
   }
 
   #item-1 #carousel-item-btn-2 {
-    width: 250px;
+    width: 290px;
     height: 44px;
   }
 
@@ -394,6 +398,28 @@ font-size: 0.8rem;
   }
 /* IMAGE 3 END MOBILE SIZE */
 
+/* ITEM-2 START MOBILE SIZE */
+
+#item-2 h1 {
+  font-size: 1.5rem;
+}
+
+#item-2 .item2-contain1-para1 {
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+#item-2 .btn-know-more {
+  padding: 6px 28px;
+  margin-top: 3rem !important ; 
+}
+
+#item-2 .item2-logo {
+  padding: 2.4rem 0px;
+}
+
+/* ITEM-2 END MOBILE SIZE */
+
 /* ITEM - 5 Media query */
   .item-5 h1{
     font-size: 1.9rem;
@@ -414,7 +440,7 @@ font-size: 0.9rem;
   }
 
   .item-10-container-1 {
-    height: 180px;
+    height: 160px;
   }
 
   .number-contain h1 {
