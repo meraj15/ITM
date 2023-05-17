@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 :root {
@@ -13,6 +12,7 @@
 html {
   overflow-x: hidden;
 }
+
 
 .navbar {
   background-color: none !important;
@@ -637,6 +637,8 @@ ul li .nav-link-ltr:hover::before {
   margin: 2rem 4rem 0 0;
 }
 
+
+
 .animation-one {
   opacity: 0;
   animation: item7Animation1 0.3s ease forwards;
@@ -651,7 +653,7 @@ ul li .nav-link-ltr:hover::before {
 
 .item-10-container-1 .container-1-para-1 {
   font-family: var(--font-family);
-  padding: 0 0 0 3rem;
+ margin: 0 0.7rem 0 2rem;
   font-size: 1rem;
   color: black;
   font-weight: 600;
@@ -687,6 +689,10 @@ ul li .nav-link-ltr:hover::before {
 }
 
 /* ITEM -11 style css */
+#item-11{
+  overflow-x: hidden;
+  background-color: #f5f5f5;
+}
 
 #item-11 h1 {
   color: #df3333;
@@ -696,6 +702,27 @@ ul li .nav-link-ltr:hover::before {
   text-align: center;
   margin: 3rem 0;
 }
+
+#item-11 .container-fluid{
+  margin-top: 3rem;
+}
+#item-11 .container-fluid .card-four{
+background-color: lightgray;
+}
+
+#item-11 .view-anchor-btn {
+  padding: 7px 18px;
+  background-color: #ca0401;
+  border-radius: 0.2rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+#item-11 .view-anchor-btn:hover {
+  background-color: #cd2122;
+  color: #fff;
+}
+
 
 /* ITEM -12 style css */
 #item-12 h1 {
@@ -722,6 +749,8 @@ ul li .nav-link-ltr:hover::before {
   text-align: center;
   margin: 3rem 0;
 }
-.item-13-container {
-  margin-top: 3rem;
-}
+
+/* #item-13 .card-one:hover{
+  border: 2px solid grey;
+} */
+
