@@ -616,7 +616,7 @@ ul li .nav-link-ltr:hover::before {
 
 /* item-9 END Styles in CSS */
 
-/* ITEM -10 style css */
+/* item-10 START Styles in CSS */
 
 #item-10 {
   background-color: #f5f5f5;
@@ -637,8 +637,6 @@ ul li .nav-link-ltr:hover::before {
   margin: 2rem 4rem 0 0;
 }
 
-
-
 .animation-one {
   opacity: 0;
   animation: item7Animation1 0.3s ease forwards;
@@ -653,7 +651,8 @@ ul li .nav-link-ltr:hover::before {
 
 .item-10-container-1 .container-1-para-1 {
   font-family: var(--font-family);
- margin: 0 0.7rem 0 2rem;
+  margin: 0.5rem 3rem;
+  /* padding: 0 0 0 3rem;  */
   font-size: 1rem;
   color: black;
   font-weight: 600;
@@ -687,6 +686,7 @@ ul li .nav-link-ltr:hover::before {
     transform: translateX(0);
   }
 }
+/* item-10 END Styles in CSS */
 
 /* ITEM -11 style css */
 #item-11{
@@ -753,64 +753,9 @@ font-size: 2.8rem;
 }
 
 /* ITEM -14 style css */
-.item-14{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-bottom: 4rem;
+#item-14{
+ background-color: #f5f5f5;
 }
 
-.item-14 form{
-  flex:1 1 30rem;
-  padding: 2rem 3rem;
-  border:.1rem solid rgba(0,0,0,.2);
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-  border-radius: .5rem;
-  background: #fff;
-}
 
-.item-14 form .heading{
-  text-align: left;
-  padding: 0;
-  padding-bottom: 2rem;
-  text-transform: uppercase;
-}
-
-.item-14 form .inputbox{
-  position: relative;
-}
-
-.item-14 form .inputbox input,.contact form .inputbox textarea{
-  width: 100%;
-  background: none;
-  color: #666;
-  margin: 1.5rem 0;
-  padding: .5rem 0;
-font-size: 1.7rem;
-border-bottom: .1rem solid rgba(0, 0, 0, .1);
-text-transform: none;
-}
-
-.item-14 form .inputbox textarea{
-  resize: none;
-  height: 13rem;
-}
-
-.item-14 form .inputbox label{
-  position: absolute;
-  top: 1.7rem; left: 0;
-  font-size: 1.7rem;
-  color: #666;
-  transition: .2s linear;
-}
-
-.item-14 form .inputbox input:focus ~ label,
-.item-14 form .inputbox input:valid ~ label,
-.item-14 form .inputbox textarea:focus ~ label,
-.item-14 form .inputbox textarea:valid ~ label{
-  top: -.5rem;
-  font-size: 1.5rem;
-  color: #df3333;
-}
 

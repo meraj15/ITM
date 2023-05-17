@@ -177,7 +177,7 @@
   /* Item 10 media query */
 
   #item-10 .item-10-h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .item-10-container-1 {
@@ -187,7 +187,8 @@
 
   .number-contain h1 {
     font-size: 3rem;
-    text-align: center;
+    display: block;
+    margin: auto;
   }
 }
 /* item-2 END Media Queries */
@@ -592,32 +593,36 @@
     font-size: 0.9rem;
   }
 
-  /* ITEM - 10 Media query */
+ /* ITEM-10 START MOBILE SIZE */
+ #item-10 .item-10-h1 {
+  font-size: 1.7rem;
+}
 
-  #item-10 .item-10-h1 {
-    font-size: 1.6rem;
-  }
+.item-10-container-1 {
+  width: 100% !important;
+  height: 190px;
+}
 
-  .item-10-container-1 {
-    height: 150px;
-  }
+.number-contain {
+  display: block;
+  margin: auto;
+}
 
-  .number-contain h1 {
-    font-size: 2rem;
-   
-  }
+.number-contain h1 {
+  font-size: 3rem;
+  padding: 1.4rem 0px;
+}
 
-  #item-10 .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 420px;
-  }
+.item-10-container-1 .container-1-para-1 {
+  line-height: 1.5;
+}
 
-  .item-10-container-1 .container-1-para-1{
-padding-right: 1rem !important;
-font-size: 0.9rem;
-  }
+.item-10-container-1 {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+/* ITEM-10 END MOBILE SIZE */
 
   /* ITEM-11 START MOBILE SIZE */
   #item-11 h1 {
