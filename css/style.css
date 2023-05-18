@@ -13,6 +13,9 @@ html {
   overflow-x: hidden;
 }
 
+.hidden{
+  display: none;
+}
 
 .navbar {
   background-color: none !important;
@@ -21,14 +24,6 @@ html {
   width: 100vw;
 }
 
-/* .hidden{
-  display: none;
-}
-
-.navbar-expand-lg{
-  background-color: black;
-  color: white;
-} */
 
 .navbar-brand {
   padding-left: 1rem !important;
@@ -769,6 +764,7 @@ background-color: lightgray;
   text-transform: uppercase;
   text-align: center;
   margin: 3rem 0;
+  font-size: 2.8rem;
 }
 
 #item-12 p {
@@ -870,11 +866,45 @@ font-size: 2rem;
 }
 
 #item-16 .item-16-btn{
-
-  overflow: hidden;
   display: flex;
   align-items: center;
 }
+
+/* ITEM -17 style css */
+#item-17{
+  background-color: #2F2F2F;
+  color: white;
+}
+
+.item-17-container-1-para-1{
+  width: 300px;
+  line-height: 1.8;
+  font-family: var(--font-family);
+  text-align: justify;
+}
+
+
+.item-17-container-2 p{
+  line-height: 0.8;
+  font-family: var(--font-family);
+  text-align: justify;
+}
+
+.item-17-container-3 p{
+  line-height: 0.8;
+  font-family: var(--font-family);
+
+}
+
+.item-17-container-1{
+  width: 300px;
+}
+
+.item-17-container-3{
+  width: 320px;
+}
+
+
 
 
 

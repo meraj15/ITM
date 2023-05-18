@@ -464,6 +464,21 @@
   /* item-16 END Media Queries */
 
 
+  /* item-17 START Media Queries */
+
+  @media only screen and (max-width: 992px) {
+    #item-17 p {
+      font-size: 1rem !important;
+    } 
+  }
+/* @media only screen and (max-width: 520px) {
+  .item-17-container-2-para-1{
+    font-size: 0.9rem;
+  }
+} */
+  /* item-17 END Media Queries */
+
+
 /* ITEM ALL Media query  MOBILE */
 @media only screen and (max-width: 480px) {
   #item-1 .carousel-item-contain {
