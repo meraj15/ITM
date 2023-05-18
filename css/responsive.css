@@ -241,6 +241,44 @@
 }
 /* item-3 END Media Queries */
 
+/* item-6 START Media Queries */
+@media only screen and (max-width: 788px) {
+  #item-6 .container-fluid {
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+  }
+  #item-6 .item6-h1 {
+    font-size: 2.4rem;
+  }
+  #item-6 .item6-btn1 {
+    padding: 8px 60px;
+    font-size: 1rem;
+  }
+  #item-6 .item6-btn2 {
+    padding: 8px 60px;
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 586px) {
+  #item-6 {
+    height: 860px !important;
+  }
+  #item-6 .item6-h1 {
+    font-size: 2.8rem;
+  }
+  #item-6 .item6-btn1 {
+    padding: 8px 76px;
+    font-size: 1rem;
+  }
+  #item-6 .item6-btn2 {
+    padding: 8px 84px;
+    font-size: 1rem;
+  }
+}
+
+/* item-6 END Media Queries */
+
 /* Item 5 media query */
 
 @media only screen and (max-width: 991px) {
@@ -394,57 +432,36 @@
 
 /* item-13 END Media Queries */
 
-/* item-12  START Media Queries */
-#item-12 {
-  background-color: whitesmoke;
+/* item-15 START Media Queries */
+@media only screen and (max-width: 546px) {
+#item-15 h1{
+  font-size: 1.5rem;
+}
 }
 
-#item-12 h1 {
-  color: #ca0401;
-  font-weight: 600;
-  font-size: 2.8rem !important;
-}
+@media only screen and (max-width: 410px) {
+  #item-15 h1{
+    font-size: 1.2rem;
+  }
+  }
+/* item-15 END Media Queries */
 
-#item-12 em {
-  font-family: var(--font-family);
-  font-size: 1.1rem;
-}
 
-#item-12 a {
-  text-decoration: none;
-  color: black;
-  font-family: var(--font-family);
-}
-
-#item-12 .anchor-btn {
-  font-size: 0.9rem;
-  padding: 6px 14px;
-  background-color: #ca0401;
-  border-radius: 0.2rem;
-  color: white;
-}
-
-#item-12 .anchor-btn:hover {
-  background-color: #cd2122;
-  color: #fff;
-}
-
-#item-12 a:hover {
-  color: red;
-}
-
-#item-12 .lead {
-  text-align: justify;
-  padding-top: 0.8rem;
-  font-size: 1.4rem;
-}
-
-#item-12 .row-featurettes2 {
-  margin: 6rem 0px !important;
-}
-
-/* item-12  END Media Queries */
-
+/* item-16 START Media Queries */
+@media only screen and (max-width: 991px) {
+  
+  #item-16 .item-16-btn{
+    margin-top: 3rem;
+  }
+  
+  }
+  
+  @media only screen and (max-width: 410px) {
+    #item-15 h1{
+      font-size: 1.2rem;
+    }
+    }
+  /* item-16 END Media Queries */
 
 
 /* ITEM ALL Media query  MOBILE */
