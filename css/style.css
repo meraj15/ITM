@@ -967,7 +967,7 @@ font-size: 2rem;
 }
 
 .item-16-image{
-  margin-left: 0.5rem;
+  margin-left: 0.4rem;
   opacity: 0;
   animation: slideTop 0.5s ease forwards;
   animation-delay: calc(0.1s * var(--i));
