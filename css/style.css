@@ -13,9 +13,6 @@ html {
   overflow-x: hidden;
 }
 
-.hidden{
-  display: none;
-}
 
 .navbar {
   background-color: none !important;
@@ -78,7 +75,7 @@ ul li .nav-link-ltr:hover::before {
   right: 100px;
   width: 290px;
   height: 280px;
-  background-image: linear-gradient(to left, #3d0101, #ca0401);
+  background-image: linear-gradient(110deg,#ca0401, #3d0101 70%);
   opacity: 0.8;
   animation: slideRight 0.5s ease forwards;
   animation-delay: 0.3s;
@@ -438,6 +435,7 @@ ul li .nav-link-ltr:hover::before {
   display: block;
   margin: auto;
   border-radius: 5px;
+  outline: none;
 }
 
 #item-2 .btn-know-more:hover {
@@ -499,7 +497,71 @@ ul li .nav-link-ltr:hover::before {
   font-size: 0.9rem;
 }
 
-/* ITEM -4 style css */
+/* .hidden{
+  display: none;
+}
+
+
+.item-3-btn{
+position:relative;
+top: -70px;
+}
+
+.item-3-container-hover{
+  z-index: 10;
+  transition: 1s;
+} */
+
+
+/* item-4 START Styles in CSS */
+#item-4 .container{
+  background-color: #CD2122;
+  height: 240px;
+  transform: skew(-16deg);
+  position: relative;
+  top: -30px;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+#item-4 .item4-para1 {
+  font-size: 1.4rem;
+  color: white;
+}
+
+#item-4 .item4-para2 {
+  font-size: 0.9rem;
+  color: lightgray;
+  font-family: var(--font-family);
+}
+
+#item-4 .item4-btn1 {
+  border: 2px solid white;
+  padding: 7px 34px;
+  color: white;
+  font-family: var(--font-family);
+  border-radius: 3px;
+  outline: none;
+
+}
+
+#item-4 .item4-btn2 {
+  padding: 8px 22px;
+  background-color: white;
+  font-family: var(--font-family);
+  border-radius: 5px;
+  color: black;
+  font-weight: 600;
+}
+
+#item-4 .item4-btn1:hover {
+  opacity: 0.8;
+}
+
+#item-4 .item4-btn2:hover {
+  opacity: 0.8;
+}
+/* item-4 END Styles in CSS */
 
 /* ITEM -5 style css */
 
@@ -749,6 +811,7 @@ background-color: lightgray;
   border-radius: 0.2rem;
   color: white;
   text-transform: uppercase;
+  outline: none;
 }
 
 #item-11 .view-anchor-btn:hover {
@@ -800,6 +863,7 @@ font-size: 2.8rem;
   font-family: var(--font-family);
   font-weight: 600;
   border-radius: 5px;
+  outline: none;
 }
 
 #item-14 .btn-item-14:hover {
@@ -870,39 +934,53 @@ font-size: 2rem;
   align-items: center;
 }
 
-/* ITEM -17 style css */
-#item-17{
-  background-color: #2F2F2F;
+/* item-17 START Styles in CSS */
+
+#item-17 {
+  background-color: #2f2f2f;
   color: white;
 }
 
-.item-17-container-1-para-1{
+#item-17 .item-17-container-1-para-1 {
   width: 300px;
-  line-height: 1.8;
+  line-height: 1.9;
   font-family: var(--font-family);
   text-align: justify;
+  font-size: 0.8rem;
 }
 
-
-.item-17-container-2 p{
-  line-height: 0.8;
+#item-17 .item-17-container-2 p {
+  line-height: 1;
   font-family: var(--font-family);
   text-align: justify;
+  font-size: 0.8rem;
 }
 
-.item-17-container-3 p{
-  line-height: 0.8;
+#item-17 .item-17-container-3 p {
+  line-height: 0.7;
   font-family: var(--font-family);
+  font-size: 1rem;
 
 }
 
-.item-17-container-1{
+#item-17 .item-17-container-1 {
   width: 300px;
 }
 
-.item-17-container-3{
+#item-17 .item-17-container-3 {
   width: 320px;
 }
+
+#item-17 .contain-1-item-17 p{
+  font-size: 1rem;
+}
+/* .item-17-container-1, .item-17-container-2 {
+  font-size: 0.9rem !important;
+} */
+/* item-17 END Styles in CSS */
+/* #item-17 .foo-para {
+font-size: 1.8rem !important;
+} */
 
 
 
