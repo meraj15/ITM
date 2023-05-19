@@ -966,6 +966,13 @@ font-size: 2rem;
   align-items: center;
 }
 
+.item-16-image{
+  margin-left: 0.5rem;
+  opacity: 0;
+  animation: slideTop 0.5s ease forwards;
+  animation-delay: calc(0.1s * var(--i));
+}
+
 /* item-17 START Styles in CSS */
 
 #item-17 {
